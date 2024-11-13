@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  announcement:
+    icon: info-circle
+    dismissable: false
+    content: "**Note:** we're currently rebuilding our website, but we'll be back again soon with more content!"
+    type: primary
+    position: below-navbar
+  title: "Economic Analytics"
+  navbar:
+    pinned: true
+    right:
+      - icon: twitter-x
+        href: https://x.com/EconAnalyticsUK
+      - icon: linkedin
+        href: https://linkedin.com/company/economic-analytics
+      - icon: github
+        menu:
+          - text: Economic Analytics
+            href: https://github.com/economic-analytics
+          - text: Website source code
+            href: https://github.com/economic-analytics/economic-analytics.co.uk
+format:
+  html:
+    theme: default
+    css: styles.css

@@ -1,0 +1,9 @@
+---
+title: "Home"
+page-layout: full
+title-block-banner: full
+---
+
+## Welcome to Economic Analytics
+
+Economic Analytics is a consultancy founded in 2022 by [Christian Spence](https://www.christianspence.co.uk). We work with a variety of clients from not-for-profits, trade bodies, local authorities through to blue-chip companies to provide economic and economic data-led research to support research and analysis, decision making, modelling and forecasting.
