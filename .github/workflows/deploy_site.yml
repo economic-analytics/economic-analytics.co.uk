@@ -32,6 +32,7 @@ jobs:
       uses: milanmk/actions-file-deployer@1.16
       with:
         remote-protocol: sftp
+        sync: full
         remote-host: ${{ secrets.EA_SFTP_SERVER }}
         remote-user: ${{ secrets.EA_SFTP_USERNAME }}
         ssh-private-key: ${{ secrets.EA_SFTP_SSH }}
