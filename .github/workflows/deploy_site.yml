@@ -19,13 +19,11 @@ jobs:
         local-dir: _site/
         server-dir: public_html/
     
-    - name: Upload Files (SFTP)
-      uses: pontago/lftp-deploy-action@v1.0.1
+    - name: 📂 Sync Files (SFTP)
+      uses: SamKirkland/web-deploy@v1
       with:
-        protocol: sftp
-        host: ${{ secrets.EA_SFTP_SERVER }}
-        username: ${{ secrets.EA_SFTP_USERNAME }}
-        password: ${{ secrets.EA_SFTP_PASSWORD }}
-        # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        local_dir: ./_site/
-        remote_dir: /opt/sites/economic-analytics.co.uk
+        target-server: ${{ secrets.EA_SFTP_SERVER }}
+        remote-user: ${{ secrets.EA_SFTP_USERNAME }}
+        private-ssh-key: ${{ secrets.EA_SFTP_SSH }}
+        source-path: ./_site/
+        destination-path: /opt/sites/economic-analytics.co.uk/
