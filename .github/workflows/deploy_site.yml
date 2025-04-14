@@ -19,11 +19,23 @@ jobs:
         local-dir: _site/
         server-dir: public_html/
     
-    - name: 📂 Sync Files (SFTP)
-      uses: SamKirkland/web-deploy@v1
+    # - name: 📂 Sync Files (SFTP)
+    #   uses: SamKirkland/web-deploy@v1
+    #   with:
+    #     target-server: ${{ secrets.EA_SFTP_SERVER }}
+    #     remote-user: ${{ secrets.EA_SFTP_USERNAME }}
+    #     private-ssh-key: ${{ secrets.EA_SFTP_SSH }}
+    #     source-path: ./_site/
+    #     destination-path: /opt/sites/economic-analytics.co.uk/
+
+    - name: FTP/SFTP file deployer
+      uses: milanmk/actions-file-deployer@1.16
       with:
-        target-server: ${{ secrets.EA_SFTP_SERVER }}
+        remote-protocol: sftp
+        remote-host: ${{ secrets.EA_SFTP_SERVER }}
         remote-user: ${{ secrets.EA_SFTP_USERNAME }}
-        private-ssh-key: ${{ secrets.EA_SFTP_SSH }}
-        source-path: ./_site/
-        destination-path: /opt/sites/economic-analytics.co.uk/
+        ssh-private-key: ${{ secrets.EA_SFTP_SSH }}
+        local-path: ./_site/
+        remote-path: /opt/sites/economic-analytics.co.uk/
+        
+ 
