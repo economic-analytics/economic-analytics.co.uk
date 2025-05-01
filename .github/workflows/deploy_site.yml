@@ -10,15 +10,6 @@ jobs:
     - name: 🚚 Checkout repository
       uses: actions/checkout@v4
     
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ${{ secrets.EA_FTP_SERVER }}
-        username: ${{ secrets.EA_FTP_USERNAME }}
-        password: ${{ secrets.EA_FTP_PASSWORD }}
-        local-dir: _site/
-        server-dir: public_html/
-
     - name: SSH Sync Action
       uses: Lexty/ssh-sync-action@v1.0.0
       with:
@@ -27,6 +18,3 @@ jobs:
         key: ${{ secrets.EA_SFTP_SSH }}
         rsync_upload: |
           ./_site/ => /opt/sites/economic-analytics.co.uk/
-        
-        
- 
