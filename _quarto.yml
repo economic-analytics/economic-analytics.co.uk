@@ -11,6 +11,7 @@ website:
   title: "Economic Analytics"
   navbar:
     pinned: true
+    logo: ea-logo-xmas.png
     right:
       - icon: twitter-x
         href: https://x.com/EconAnalyticsUK
