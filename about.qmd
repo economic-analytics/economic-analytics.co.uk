@@ -1,0 +1,42 @@
+---
+title: "About"
+about:
+  template: jolla
+  image: img/cs-headshot.jpg
+  links:
+  - icon: twitter
+    text: twitter
+    href: https://twitter.com
+  - icon: github
+    text: Github
+    href: https://github.com
+---
+
+::: {.panel-tabset}
+
+## Overview
+
+I’m an economist and data scientist with a passion for, and over 15 years' experience in, public policy .
+
+In September 2022 I founded my own consultancy practice, [Economic Analytics](https://www.economic-analytics.co.uk), and I’m also Economic Data Lead at [Open Innovations Ltd](https://www.open-innovations.org), a #RadicallyOpen not-for-profit organisation that helps people and organisations do more with data, Chief Economist and Fellow at [The Institute of Place Management](https://www.placemanagement.org/), a Fellow of the [Royal Society of Arts](https://www.thersa.org/) and a Member of the [Regional Studies Association](https://www.regionalstudies.org/).
+
+I research regional economies, local government (and finance), devolution and industrial strategy using data, analytics and visualisations to better understand and support regional economies and their policy makers alongside business and civic society.
+
+During my career, I’ve worked in both the public and private sectors, in local government and in think tanks, in academia and for lobbying organisations.
+
+You can find more information about me in my [biography](/biography.html).
+
+## CV
+
+2022- Founder & Chief Economist, Economic Analytics
+2022- Economic Data Lead, Open Innovations Ltd
+2022- Chief Economist, Institue of Place Management
+
+2018-2022 Reader in Economic Analytics, Manchester Metropolitan University
+2018-2022 Head of Economic Data & Analytics, Future Economies Research Centre, Manchester Metropolitan University
+
+2011-2018 Head of Research & Policy, Greater Manchester Chamber of Commerce
+2011-2011 Core Cities
+2009-2011 Assistant Policy Officer, Manchester City Council
+
+:::

@@ -1,0 +1,13 @@
+---
+title: "Explainers"
+listing:
+  contents: explainers
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+This part of the website will host a variety of explainer posts dealing with some of the most commonly-asked question I receive when speaking at events.
