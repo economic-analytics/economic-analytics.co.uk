@@ -12,6 +12,14 @@ website:
   navbar:
     pinned: true
     logo: ea-logo-xmas.png
+    left:
+      - about.qmd
+      - services.qmd
+      - blog.qmd
+      - explainers.qmd
+      - resources.qmd
+      - clients.qmd
+      - economic-data.qmd
     right:
       - icon: bluesky
         href: https://bsky.app/profile/economic-analytics.co.uk
