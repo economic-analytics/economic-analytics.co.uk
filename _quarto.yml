@@ -13,6 +13,8 @@ website:
     pinned: true
     logo: ea-logo-xmas.png
     right:
+      - icon: bluesky
+        href: https://bsky.app/profile/economic-analytics.co.uk
       - icon: twitter-x
         href: https://x.com/EconAnalyticsUK
       - icon: linkedin
