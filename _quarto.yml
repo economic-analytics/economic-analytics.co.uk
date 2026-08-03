@@ -5,7 +5,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: false
-    content: "**Note:** we're currently rebuilding our website, but we'll be back again soon with more content!"
+    content: "**Note:** Content is missing while this website is being rebuilt. Our new site will be published on 1 September 2026"
     type: primary
     position: below-navbar
   title: "Economic Analytics"
