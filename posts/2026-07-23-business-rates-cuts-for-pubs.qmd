@@ -1,0 +1,25 @@
+---
+title: "Business Rates cuts for pubs"
+subtitle: "Fiddling whilst the rates burn"
+author: "Christian Spence"
+date: "2026-07-23"
+categories: [business rates, tax reform]
+---
+
+Another day (four, if you're counting) of the Burnham prime ministership, another cost of living announcement. We've removed VAT from domestic electricity, we've capped bus fares, and now we're lowering business rates for pubs.
+
+I've no shortage of bruises when it comes to business rates. I lead on business rates reform for the British Chambers of Commerce the last (next to last?) time this perennial issue came up, with then Chancellor George Osborne promising a fundamental review of business rates. (They were not fundamentally reviewed or, at least, where they were, nothing much changed). A full summary of the pains of that period, from businesses, politicians, civil servants and the whole alphabet of three-letter acronyms of the business support world are too many to ever fully document, but a summary of the main issues we were trying to solve can be found in an old blog, [The Seven Deadly Sins of Business Rates]().
+
+From an economist's point of view, business rates should be easy. We don't want to tax the business premises themselves, as they're an input into the production process, but we do want to tax the land they sit on. Land is scarce and (almost entirely) fixed in supply. Tax the building and you risk penalising improvements (as part of our business rates system does by valuing plant & machinery, micro-generation, etc.). Tax the land, and no such distortion exists. (Search for land value tax for the theory: I don't have time today to expound that here.)
+
+Also from an economist's view, tax exemptions are a bit of a nightmare. _Sometimes_ they can be justified, but most tax emeptions are merely special pleading cases for attention from various bits of the economy, or have been chosen by the exchequer for some political special treatment. But generally they're bad. Primarily because whilst humans are quite good at seeing what the want to treated specially (lower the rates on my local pub: the landlord's a great guy and is really struggling), writing that into legislation tends be rather harder, so the benefits flow to all pubs (mostly owned by very large chains with no shortage of cash).
+
+But some taxes are riddled with exemptions. The National Insurance system has become extremely complicated with various carve-outs and reductions for young people, small employers, apprentices, ex-veterans, etc.). Business rates sees a similar scale, with various treatments for offices, factories, plant & machinery, car parking, charities, hotels, warehouses and the dear old British pub. Generally, when a tax keeps having exemptions added and amended (because politically you can't justify the core aspect of the system), it's time to change the system. It's a poor analogy to use Trigger's Broom, but if you keep changing the parts of the system, at want point is the system no longer the one you started with?
+
+And so, after many and various temporary carve-outs for retail and hospitality since the Covid pandemic, and their expiry last year, we're back again with another reduction for the Great British Pub. But it just continues to show that the system os not fit for purpose. The Coalition Government promised reform and we didn't get it. The last Labour administration promised a fundamental review of business rates and two years into the parliament there's no sign of any work going on. And now we're back at fiddling again.
+
+So, ideally, a fundamental review. There's lots about business rates to like: take out the weird valuation of plant & machinery, photo-voltaics etc and you've got something that looks pretty close to a land value tax. Simply the valuations process, make sure it marks to actual market rates, and keep those values up-to-date and you've not got a bad system. The hardest thing to reform, however, is that is raises too much money: the rate (technically the multiplier) is just too high. The Osborne review foundered on the scope including revenue neutrality. In that world, you're just moving deckchairs.
+
+It's been interesting to watch (and to be involved in a lot of) the calls for Council Tax and Stamp Duty (Land Tax) reform growing over the past few years, and even more interesting to note that business rates is always left out of that. Sure, business rates looks a lot better than Council Tax (the only thing that looks worse is Stamp Duty), but from the 16th century Poor Laws to 1990, land and property taxation was broadly united, whether residential or commercial. If we're going to look at Council Tax and Stamp Duty, with truly fundamental reform, we could do worse than bring Business Rates into the discussion. After all, the premise of a good land tax is that land is land.
+
+So, in a similar way to wha I wrote about Burnham's announcement on zero-rating domestic electricity for VAT two days ago, we might be able to tolerate just one more small fiddle for a little political optimism. Politics for the short-term is fine, but good policy making is for ever.
