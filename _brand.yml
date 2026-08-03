@@ -1,0 +1,20 @@
+meta:
+  name:
+    full: Economic Analytics
+    short: EA
+  link:
+    home: https://www.economic-analytics.co.uk
+    github: https://github.com/economic-analytics
+    bluesky: https://bsky.app/profile/economic-analytics.co.uk
+    twitter: https://twitter.com/EconAnalyticsUK
+    linkedin: https://www.linkedin.com/company/economic-analytics
+  description: |
+    Economic Analytics provides reproducible and automated economic analysis, modelling and forecasting
+  founded: 2022
+
+typography:
+  fonts:
+    - family: Cabin
+      source: google
+  base: Cabin
+  headings: Cabin
