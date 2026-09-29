@@ -10,7 +10,8 @@ website:
   title: "Economic Analytics"
   navbar:
     pinned: true
-    logo: ea-logo-xmas.png
+    background: "#0000FF"
+    logo: img/ea-logo.png
     left:
       - about.qmd
       - services.qmd
