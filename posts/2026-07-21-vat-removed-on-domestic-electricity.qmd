@@ -1,6 +1,6 @@
 ---
 title: "VAT removed on domestic electricity"
-subtitle: "Good decision? Probably not, but ..."
+subtitle: "Where good policy and good politics collide"
 author: "Christian Spence"
 date: "2026-07-21"
 categories: [policy, vat, cost of living]
