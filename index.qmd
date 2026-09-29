@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Economic Analytics | Home"
 page-layout: full
 title-block-banner: true
 ---
