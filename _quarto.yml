@@ -21,17 +21,24 @@ website:
     right:
       - icon: bluesky
         href: https://bsky.app/profile/economic-analytics.co.uk
+        target: _blank
       - icon: twitter-x
         href: https://x.com/EconAnalyticsUK
+        target: _blank
       - icon: linkedin
         href: https://linkedin.com/company/economic-analytics
+        target: _blank
       - icon: github
         menu:
           - text: Economic Analytics
             href: https://github.com/economic-analytics
+            target: _blank
           - text: Website source code
             href: https://github.com/economic-analytics/economic-analytics.co.uk
+            target: _blank
 format:
   html:
+    link-external-icon: true
+    link-external-newwindow: true
     theme: default
     css: styles.css
