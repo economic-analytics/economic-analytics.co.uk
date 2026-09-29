@@ -1,9 +1,17 @@
 ---
 title: "Home"
 page-layout: full
-title-block-banner: full
+title-block-banner: true
 ---
 
-## Welcome to Economic Analytics
+::: {.callout-note }
+
+## Budget 2026 date confirmed
+
+The government has announced that Budget 2026 will take place on **Wednesday 28 October**. We are now taking bookings for analysis and presentations. If you'd like to discuss this, please [contact us](/contact.qmd). You'll find our comments as we publish them [in our blog](/blog.qmd#category=budget%202026).
+
+:::
+
+## Economic Analytics
 
 Economic Analytics is a consultancy founded in 2022 by [Christian Spence](https://www.christianspence.co.uk). We work with a variety of clients from not-for-profits, trade bodies, local authorities through to blue-chip companies to provide economic and economic data-led research to support research and analysis, decision making, modelling and forecasting.
