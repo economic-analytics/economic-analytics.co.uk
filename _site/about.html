@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,14 +40,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-3c3f1368ed8db972a012dae01a8e5220.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-97e28f47ad423cfcb72627c3f906fd98.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-3c3f1368ed8db972a012dae01a8e5220.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4f6299315634cf90865f7ee11b1811a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-4f6299315634cf90865f7ee11b1811a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-4f6299315634cf90865f7ee11b1811a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c066bad4ef082d8a555e7cf77f3ff817.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c066bad4ef082d8a555e7cf77f3ff817.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c066bad4ef082d8a555e7cf77f3ff817.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,8 +88,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./ea-logo-xmas.png" alt="" class="navbar-logo light-content">
-    <img src="./ea-logo-xmas.png" alt="" class="navbar-logo dark-content">
+    <img src="./img/ea-logo.png" alt="" class="navbar-logo light-content">
+    <img src="./img/ea-logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Economic Analytics</span>
@@ -103,9 +106,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">services.qmd</span>
-    </span>
+    <a class="nav-link" href="./services.html"> 
+<span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
@@ -116,33 +118,23 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Explainers</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">resources.qmd</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./clients.html"> 
-<span class="menu-text">Clients</span></a>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">economic-data.qmd</span>
-    </span>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://bsky.app/profile/economic-analytics.co.uk"> <i class="bi bi-bluesky" role="img">
+    <a class="nav-link" href="https://bsky.app/profile/economic-analytics.co.uk" target="_blank"> <i class="bi bi-bluesky" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/EconAnalyticsUK"> <i class="bi bi-twitter-x" role="img">
+    <a class="nav-link" href="https://x.com/EconAnalyticsUK" target="_blank"> <i class="bi bi-twitter-x" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/company/economic-analytics"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/company/economic-analytics" target="_blank"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -154,11 +146,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bi-github">    
         <li>
-    <a class="dropdown-item" href="https://github.com/economic-analytics">
+    <a class="dropdown-item" href="https://github.com/economic-analytics" target="_blank">
  <span class="dropdown-text">Economic Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/economic-analytics/economic-analytics.co.uk">
+    <a class="dropdown-item" href="https://github.com/economic-analytics/economic-analytics.co.uk" target="_blank">
  <span class="dropdown-text">Website source code</span></a>
   </li>  
     </ul>
@@ -169,9 +161,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="b6f2ba2e17314dc3118cbf73f090c88e" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Note:</strong> Content is missing while this website is being rebuilt. Our new site will be published on 1 September 2026</p>
-</div></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -179,6 +168,32 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="overview" class="level2">
+<h2 data-anchor-id="overview">Overview</h2>
+</section>
+<section id="how-we-do-things" class="level2">
+<h2 data-anchor-id="how-we-do-things">How we do things</h2>
+<p>Differently.</p>
+<section id="air" class="level3">
+<h3 data-anchor-id="air">AIR</h3>
+<p>We call our core working model AIR: automated, interactive and reproducible.</p>
+</section>
+<section id="rap" class="level3">
+<h3 data-anchor-id="rap">RAP</h3>
+<p>Reproducible Analytical Pipelines</p>
+</section>
+<section id="edd" class="level3">
+<h3 data-anchor-id="edd">EDD</h3>
+<p>Economic Data Dashboard</p>
+</section>
+<section id="transparent-pricing" class="level3">
+<h3 data-anchor-id="transparent-pricing">Transparent pricing</h3>
+<p>Simple per-day or per-project pricing, no retainers, and a significant discount for not-for-profit organisations.</p>
 <div class="quarto-about-jolla">
   <img src="img/cs-headshot.jpg" class="about-image
   round " style="height: 15em; width: 15em;">
@@ -188,40 +203,63 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="quarto-title-meta">
   </div>
-</header><main class="content" id="quarto-document-content">
+</header><div id="about-people">
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">CV</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>I’m an economist and data scientist with a passion for, and over 15 years’ experience in, public policy .</p>
-<p>In September 2022 I founded my own consultancy practice, <a href="https://www.economic-analytics.co.uk">Economic Analytics</a>, and I’m also Economic Data Lead at <a href="https://www.open-innovations.org">Open Innovations Ltd</a>, a #RadicallyOpen not-for-profit organisation that helps people and organisations do more with data, Chief Economist and Fellow at <a href="https://www.placemanagement.org/">The Institute of Place Management</a>, a Fellow of the <a href="https://www.thersa.org/">Royal Society of Arts</a> and a Member of the <a href="https://www.regionalstudies.org/">Regional Studies Association</a>.</p>
+<p>The founder of Economic Analytics, Christian Spence, is an economist and data scientist with a passion for, and over 15 years’ experience in, public policy. Having worked in local government, think-tanks, business-representative organisations and academia, his experience covers urban economic policy, devolution, local government finance, government lobbying, business support, tax, education, and economics of place, combined with extensive public speaking and media appearances.</p>
+<p>In September 2022 I founded my own consultancy practice, <a href="https://www.economic-analytics.co.uk">Economic Analytics</a>, and I’m also Economic Data Lead at <a href="https://www.open-innovations.org">Open Innovations Ltd</a>, a #RadicallyOpen not-for-profit organisation that helps people and organisations do more with data, Chief Economist and Fellow at <a href="https://www.placemanagement.org/">The Institute of Place Management</a>, and a Fellow of the <a href="https://www.thersa.org/">Royal Society of Arts</a>.</p>
 <p>I research regional economies, local government (and finance), devolution and industrial strategy using data, analytics and visualisations to better understand and support regional economies and their policy makers alongside business and civic society.</p>
 <p>During my career, I’ve worked in both the public and private sectors, in local government and in think tanks, in academia and for lobbying organisations.</p>
-<p>You can find more information about me in my <a href=".\biography.html">biography</a>.</p>
+<p>You can find more information about me in my <a href="https://christianspence.co.uk/biography.html">biography</a>.</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>2022- Founder &amp; Chief Economist, Economic Analytics 2022- Economic Data Lead, Open Innovations Ltd 2022- Chief Economist, Institue of Place Management</p>
-<p>2018-2022 Reader in Economic Analytics, Manchester Metropolitan University 2018-2022 Head of Economic Data &amp; Analytics, Future Economies Research Centre, Manchester Metropolitan University</p>
-<p>2011-2018 Head of Research &amp; Policy, Greater Manchester Chamber of Commerce 2011-2011 Core Cities 2009-2011 Assistant Policy Officer, Manchester City Council</p>
+<ul>
+<li>2022- Founder &amp; Chief Economist, <a href="https://economic-analytics.co.uk">Economic Analytics</a></li>
+<li>2022- Chief Economist, <a href="https://placemanagement.org">Institute of Place Management</a></li>
+<li>2022-2026 Economic Data Lead, <a href="https://open-innovations.org">Open Innovations Ltd</a></li>
+<li>2018-2022 Reader in Economic Analytics, <a href="https://mmu.ac.uk">Manchester Metropolitan University</a></li>
+<li>2018-2022 Head of Economic Data &amp; Analytics, Future Economies Research Centre, <a href="https://mmu.ac.uk">Manchester Metropolitan University</a></li>
+<li>2015-2018 Head of Research &amp; Policy, <a href="https://gmchamber.co.uk">Greater Manchester Chamber of Commerce</a></li>
+<li>2014-2018 Head of Business Rates Policy, <a href="https://britishchambers.org.uk">British Chambers of Commerce</a></li>
+<li>2013-2015 Head of Research &amp; Business Intelligence, <a href="https://gmchamber.co.uk">Greater Manchester Chamber of Commerce</a></li>
+<li>2011-2013 Research Manager, <a href="https://gmchamber.co.uk">Greater Manchester Chamber of Commerce</a></li>
+<li>2011-2011 Political Strategy and Policy Consultant, <a href="https://corecities.com">Core Cities</a></li>
+<li>2009-2011 Assistant Policy Officer, Economic Policy Unit, <a href="https://manchester.gov.uk">Manchester City Council</a></li>
+</ul>
 </div>
 </div>
 </div>
-
-
-</main> 
+</div> 
   <hr class="about-sep">
    <div class="about-links">
-  <a href="https://twitter.com" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">twitter</span>
+  <a href="https://www.linkedin.com/in/christianspence/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
   </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
+  <a href="https://bsky.app/profile/christianspence.co.uk" class="about-link" rel="" target="">
+    <i class="bi bi-bluesky"></i>
+     <span class="about-link-text">Bluesky</span>
+  </a>
+  <a href="https://x.com/ChristianSpence" class="about-link" rel="" target="">
+    <i class="bi bi-twitter-x"></i>
+     <span class="about-link-text">X (Twitter)</span>
+  </a>
+  <a href="https://github.com/ChristianSpence" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
      <span class="about-link-text">Github</span>
   </a>
 </div>
 </div>
- <!-- /main -->
+
+
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
@@ -288,7 +326,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/economic-analytics\.co\.uk\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -302,6 +340,13 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -616,6 +661,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© Copyright 2026, <a href="https://economic-analytics.co.uk">Economic Analytics</a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Built by <a href="https://economic-analytics.co.uk">Economic Analytics</a> and powered by <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
 
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +43,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-3c3f1368ed8db972a012dae01a8e5220.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-97e28f47ad423cfcb72627c3f906fd98.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-3c3f1368ed8db972a012dae01a8e5220.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4f6299315634cf90865f7ee11b1811a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-4f6299315634cf90865f7ee11b1811a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-4f6299315634cf90865f7ee11b1811a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c066bad4ef082d8a555e7cf77f3ff817.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-c066bad4ef082d8a555e7cf77f3ff817.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c066bad4ef082d8a555e7cf77f3ff817.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,8 +91,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../ea-logo-xmas.png" alt="" class="navbar-logo light-content">
-    <img src="../ea-logo-xmas.png" alt="" class="navbar-logo dark-content">
+    <img src="../img/ea-logo.png" alt="" class="navbar-logo light-content">
+    <img src="../img/ea-logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Economic Analytics</span>
@@ -106,9 +109,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">services.qmd</span>
-    </span>
+    <a class="nav-link" href="../services.html"> 
+<span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../blog.html"> 
@@ -119,33 +121,23 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Explainers</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">resources.qmd</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../clients.html"> 
-<span class="menu-text">Clients</span></a>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">economic-data.qmd</span>
-    </span>
+    <a class="nav-link" href="../contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://bsky.app/profile/economic-analytics.co.uk"> <i class="bi bi-bluesky" role="img">
+    <a class="nav-link" href="https://bsky.app/profile/economic-analytics.co.uk" target="_blank"> <i class="bi bi-bluesky" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/EconAnalyticsUK"> <i class="bi bi-twitter-x" role="img">
+    <a class="nav-link" href="https://x.com/EconAnalyticsUK" target="_blank"> <i class="bi bi-twitter-x" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/company/economic-analytics"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/company/economic-analytics" target="_blank"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -157,11 +149,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bi-github">    
         <li>
-    <a class="dropdown-item" href="https://github.com/economic-analytics">
+    <a class="dropdown-item" href="https://github.com/economic-analytics" target="_blank">
  <span class="dropdown-text">Economic Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/economic-analytics/economic-analytics.co.uk">
+    <a class="dropdown-item" href="https://github.com/economic-analytics/economic-analytics.co.uk" target="_blank">
  <span class="dropdown-text">Website source code</span></a>
   </li>  
     </ul>
@@ -172,9 +164,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="b6f2ba2e17314dc3118cbf73f090c88e" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Note:</strong> Content is missing while this website is being rebuilt. Our new site will be published on 1 September 2026</p>
-</div></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -225,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Sometimes you get the question which catches you out: either it’s further from the topic you’ve just presented on and so the answer needs compiling from a part of your brain which hasn’t been active on that day, or they’re genuinely tricky. Questions around policy and politics tend to fall into this category most often, but an audience member is always capable of catching you out. For these, I try to answer to the best of my ability and, if it’s truly a challening one, then setting out the arguments around the question on both sides, setting additional context and adding some historic examples or theory can help to clarify for the questioner even if you don’t have a perfect answer. And critically, if you don’t know, say so! I was thankfully taught from an early age that it’s perfectly reasonable to not know something, but you should know how to find out. Be honest, say you don’t know and ask the questioner to catch you afterwards and offer to follow-up with them when you’ve had a chance to do some research and thinking. My experience is that people genuinely respect both your honesty and your willingness to chase down an answer.</p>
 <p>There are some questions, however, that fall into all of the above categories: questions I tend to call “explainers”. They’re variously asked by people seeking clarifications, seeking deeper knowledge, or setting an issue in their minds into a broader context. Over the years, there’s a number of these that just keep coming up, time after time. Whether the audience is the general public, business owners, public sector, lawyers, financiers or anyone else, there are some things about the economic world that many, many people just either don’t understand at all, or have serious questions about precisely how it works, even if they have a general idea.</p>
 <p>Common areas on this are bond markets (why do yields go up when prices come down), energy pricing markets (why is “free” renewable energy so expensive), labour markets (how can both employment and unemployment rise/fall at the same time), taxation (why am I double taxed on so many things, how dare you call my dividends unearned income), local government (how do they spend so much money when they can’t empty my bins), and many more. Having to repeatedly answer these questions to a variety of people with very different backgrounds and understanding of different parts of the world gives you lots of experience in answering these in different ways and gives you a glimpse into which parts of my own professional world are well understood and where people tend to have knowledge gaps.</p>
-<p>So, <a href="..\explainers/">this new part of the website, “Explainers”</a> is dedicated to answering these sorts of questions. The ones that come up over and over again from all sorts of different people. I hope it will prove a useful resource, as well as improving my own knowledge in how to best put these issues across clearly in the future.</p>
+<p>So, <a href="../explainers/">this new part of the website, “Explainers”</a> is dedicated to answering these sorts of questions. The ones that come up over and over again from all sorts of different people. I hope it will prove a useful resource, as well as improving my own knowledge in how to best put these issues across clearly in the future.</p>
 
 
 
@@ -303,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/economic-analytics\.co\.uk\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -317,6 +306,13 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -631,6 +627,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© Copyright 2026, <a href="https://economic-analytics.co.uk">Economic Analytics</a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Built by <a href="https://economic-analytics.co.uk">Economic Analytics</a> and powered by <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
 
 

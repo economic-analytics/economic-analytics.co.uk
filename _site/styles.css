@@ -1,1 +1,34 @@
 /* css styles */
+
+h2 {
+  color: #0000FF;
+  border-bottom: 1px solid #00CCFF;
+}
+
+h3 {
+  color: #0033FF
+}
+
+h4 {
+  color: #0066FF
+}
+
+h5 {
+  color: #0099FF
+}
+
+h6 {
+  color: #00CCFF
+}
+
+.quarto-title-block-banner {
+  background-color:  #00CCFF;
+}
+
+.quarto-title-block {
+  border-top: 3px solid #00CCFF;
+}
+
+#quarto-appendix.default {
+    border-top: 1px solid #00CCFF;
+}

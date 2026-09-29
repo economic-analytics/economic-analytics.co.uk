@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Services",
+    "section": "",
+    "text": "Economic Analytics provides a wide variety of services to suit different clients’ needs, though the majority of our work falls into the categories below. If you’re looking for something that doesn’t seem to fit these, do please contact us to discuss your requirements."
+  },
+  {
+    "objectID": "services.html#economic-update",
+    "href": "services.html#economic-update",
+    "title": "Services",
+    "section": "Economic Update",
+    "text": "Economic Update"
+  },
+  {
+    "objectID": "services.html#analysis",
+    "href": "services.html#analysis",
+    "title": "Services",
+    "section": "Analysis",
+    "text": "Analysis"
+  },
+  {
+    "objectID": "services.html#tax-modelling",
+    "href": "services.html#tax-modelling",
+    "title": "Services",
+    "section": "Tax modelling",
+    "text": "Tax modelling"
+  },
+  {
+    "objectID": "services.html#public-speaking",
+    "href": "services.html#public-speaking",
+    "title": "Services",
+    "section": "Public speaking",
+    "text": "Public speaking"
+  },
+  {
     "objectID": "posts/2026-07-23-business-rates-cuts-for-pubs.html",
     "href": "posts/2026-07-23-business-rates-cuts-for-pubs.html",
     "title": "Business Rates cuts for pubs",
@@ -16,16 +51,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Home",
+    "title": "Economic Analytics | Home",
     "section": "",
-    "text": "Economic Analytics is a consultancy founded in 2022 by Christian Spence. We work with a variety of clients from not-for-profits, trade bodies, local authorities through to blue-chip companies to provide economic and economic data-led research to support research and analysis, decision making, modelling and forecasting."
+    "text": "NoteBudget 2026 date confirmed\n\n\n\nThe government has announced that Budget 2026 will take place on Wednesday 28 October. We are now taking bookings for analysis and presentations. If you’d like to discuss this, please contact us. You’ll find our comments as we publish them in our blog."
   },
   {
-    "objectID": "index.html#welcome-to-economic-analytics",
-    "href": "index.html#welcome-to-economic-analytics",
-    "title": "Home",
-    "section": "",
-    "text": "Economic Analytics is a consultancy founded in 2022 by Christian Spence. We work with a variety of clients from not-for-profits, trade bodies, local authorities through to blue-chip companies to provide economic and economic data-led research to support research and analysis, decision making, modelling and forecasting."
+    "objectID": "index.html#economic-analytics",
+    "href": "index.html#economic-analytics",
+    "title": "Economic Analytics | Home",
+    "section": "Economic Analytics",
+    "text": "Economic Analytics\nEconomic Analytics is a boutique consultancy practice founded in 2022 by Christian Spence, an economist and data scientist with over 15 years’ experience of working in public policy. It specialises in automated, interactive and reproducible analysis, forecasting and modelling.\nOur work is deployed to the web in bespoke environments so that clients get live access to their commissioned research which updates as soon as the underlying data does. We built and maintain EDD, our own custom-built database of over 25,000 economic variables, that is automatically kept up-to-date with the latest data releases.\nWe don’t write lengthy reports and provide uneditable PDFs (#KillAllReports)1 as they’re out-of-date by the time they’re printed. Instead, we give you live and direct access to the data, models and visualisations so that your results are not locked at one point in time, but instead update as new evidence is released. After all, when the facts change, your mind should too.2\nWe work with a variety of clients from not-for-profits, trade bodies, local authorities through to blue-chip companies to provide economic and economic data-led research to support research and analysis, decision making, modelling and forecasting. We offer generous discounts to not-for-profit organisations."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Economic Analytics | Home",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMy time working with Paul Connell and Tom Forth at the wonderful Open Innovations convinced me this is the only way to work. You can read more about this approach here.↩︎\nAn almost certainly apocryphal quote attributed to the British economist John Maynard Keynes (1883-1946).↩︎"
   },
   {
     "objectID": "explainers/2026-06-19-introducing-explainers.html",
@@ -35,18 +77,18 @@
     "text": "Over the past decade and a half, I’ve given more presentations, attended roundtables, and taught classes on the various byways of economics, economic policy and financial and commodity markets than I could ever remember. With the old adage that if you want to truly learn about a subject, teach it, the learning curve, even for one’s own specialist subject, never stops.\nBut with all of that delivering information to clients comes, for me, one of the most challenging yet enjoyable parts of the job: answering the audience’s questions at the end of the presentation. In my experience, these tend to fall into three main categories.\nMany will be simple points of clarification. For me, these form perhaps the strongest feedback loop on my own presentation style. I tend to take these as a signal that I wasn’t sufficiently clear in what I was saying, and aim to do better next time. As the subject professional, it’s my job to make things clear to the audience and, if I haven’t done that, I’ve failed. I try to stick to the maxim of “treat your audience as intelligent, but don’t assume subject knowledge”. In most cases that works, but one people ask for clarification, that’s a good learning opportunity.\nIn other cases, while the question is a hard one from the attendee’s point of view, for the subject expert they’re often (and perhaps should be) easily answerable. This is where most questions tend to fall: the person asking doesn’t have deep knowledge of the area they’re asking you about, and are keen to understand your opinion on the topic.\nSometimes you get the question which catches you out: either it’s further from the topic you’ve just presented on and so the answer needs compiling from a part of your brain which hasn’t been active on that day, or they’re genuinely tricky. Questions around policy and politics tend to fall into this category most often, but an audience member is always capable of catching you out. For these, I try to answer to the best of my ability and, if it’s truly a challening one, then setting out the arguments around the question on both sides, setting additional context and adding some historic examples or theory can help to clarify for the questioner even if you don’t have a perfect answer. And critically, if you don’t know, say so! I was thankfully taught from an early age that it’s perfectly reasonable to not know something, but you should know how to find out. Be honest, say you don’t know and ask the questioner to catch you afterwards and offer to follow-up with them when you’ve had a chance to do some research and thinking. My experience is that people genuinely respect both your honesty and your willingness to chase down an answer.\nThere are some questions, however, that fall into all of the above categories: questions I tend to call “explainers”. They’re variously asked by people seeking clarifications, seeking deeper knowledge, or setting an issue in their minds into a broader context. Over the years, there’s a number of these that just keep coming up, time after time. Whether the audience is the general public, business owners, public sector, lawyers, financiers or anyone else, there are some things about the economic world that many, many people just either don’t understand at all, or have serious questions about precisely how it works, even if they have a general idea.\nCommon areas on this are bond markets (why do yields go up when prices come down), energy pricing markets (why is “free” renewable energy so expensive), labour markets (how can both employment and unemployment rise/fall at the same time), taxation (why am I double taxed on so many things, how dare you call my dividends unearned income), local government (how do they spend so much money when they can’t empty my bins), and many more. Having to repeatedly answer these questions to a variety of people with very different backgrounds and understanding of different parts of the world gives you lots of experience in answering these in different ways and gives you a glimpse into which parts of my own professional world are well understood and where people tend to have knowledge gaps.\nSo, this new part of the website, “Explainers” is dedicated to answering these sorts of questions. The ones that come up over and over again from all sorts of different people. I hope it will prove a useful resource, as well as improving my own knowledge in how to best put these issues across clearly in the future."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "OverviewCV\n\n\nI’m an economist and data scientist with a passion for, and over 15 years’ experience in, public policy .\nIn September 2022 I founded my own consultancy practice, Economic Analytics, and I’m also Economic Data Lead at Open Innovations Ltd, a #RadicallyOpen not-for-profit organisation that helps people and organisations do more with data, Chief Economist and Fellow at The Institute of Place Management, a Fellow of the Royal Society of Arts and a Member of the Regional Studies Association.\nI research regional economies, local government (and finance), devolution and industrial strategy using data, analytics and visualisations to better understand and support regional economies and their policy makers alongside business and civic society.\nDuring my career, I’ve worked in both the public and private sectors, in local government and in think tanks, in academia and for lobbying organisations.\nYou can find more information about me in my biography.\n\n\n2022- Founder & Chief Economist, Economic Analytics 2022- Economic Data Lead, Open Innovations Ltd 2022- Chief Economist, Institue of Place Management\n2018-2022 Reader in Economic Analytics, Manchester Metropolitan University 2018-2022 Head of Economic Data & Analytics, Future Economies Research Centre, Manchester Metropolitan University\n2011-2018 Head of Research & Policy, Greater Manchester Chamber of Commerce 2011-2011 Core Cities 2009-2011 Assistant Policy Officer, Manchester City Council"
-  },
-  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Business Rates cuts for pubs\n\n\nFiddling whilst the rates burn\n\n\n\nbusiness rates\n\ntax reform\n\n\n\n\n\n\n\n\n\nJul 23, 2026\n\n\nChristian Spence\n\n\n\n\n\n\n\n\n\n\n\n\nVAT removed on domestic electricity\n\n\nGood decision? Probably not, but …\n\n\n\npolicy\n\nvat\n\ncost of living\n\n\n\n\n\n\n\n\n\nJul 21, 2026\n\n\nChristian Spence\n\n\n\n\n\n\n\n\n\n\n\n\nAndy Burnham to Westminster\n\n\nThe King of the North goes South\n\n\n\nlabour\n\npm\n\nburnham\n\n\n\n\n\n\n\n\n\nJun 22, 2026\n\n\nChristian Spence\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducing Explainers\n\n\n\n\n\n\nexplainers\n\n\n\n\n\n\n\n\n\nJun 19, 2026\n\n\nChristian Spence\n\n\n\n\n\nNo matching items"
+    "text": "Budget 2026 announced\n\n\nA half-term date for a half-term government\n\n\n\nbudget 2026\n\n\n\n\n\n\n\n\n\nJul 31, 2026\n\n\nChristian Spence\n\n\n\n\n\n\n\n\n\n\n\n\nBusiness Rates cuts for pubs\n\n\nFiddling whilst the rates burn\n\n\n\nbusiness rates\n\ntax reform\n\n\n\n\n\n\n\n\n\nJul 23, 2026\n\n\nChristian Spence\n\n\n\n\n\n\n\n\n\n\n\n\nVAT removed on domestic electricity\n\n\nGood decision? Probably not, but …\n\n\n\npolicy\n\nvat\n\ncost of living\n\n\n\n\n\n\n\n\n\nJul 21, 2026\n\n\nChristian Spence\n\n\n\n\n\n\n\n\n\n\n\n\nAndy Burnham to Westminster\n\n\nThe King of the North goes South\n\n\n\nlabour\n\npm\n\nburnham\n\n\n\n\n\n\n\n\n\nJun 22, 2026\n\n\nChristian Spence\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducing Explainers\n\n\n\n\n\n\nexplainers\n\n\n\n\n\n\n\n\n\nJun 19, 2026\n\n\nChristian Spence\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#how-we-do-things",
+    "href": "about.html#how-we-do-things",
+    "title": "About",
+    "section": "How we do things",
+    "text": "How we do things\nDifferently.\n\nAIR\nWe call our core working model AIR: automated, interactive and reproducible.\n\n\nRAP\nReproducible Analytical Pipelines\n\n\nEDD\nEconomic Data Dashboard\n\n\nTransparent pricing\nSimple per-day or per-project pricing, no retainers, and a significant discount for not-for-profit organisations.\n\n  \n \n\nOverviewCV\n\n\nThe founder of Economic Analytics, Christian Spence, is an economist and data scientist with a passion for, and over 15 years’ experience in, public policy. Having worked in local government, think-tanks, business-representative organisations and academia, his experience covers urban economic policy, devolution, local government finance, government lobbying, business support, tax, education, and economics of place, combined with extensive public speaking and media appearances.\nIn September 2022 I founded my own consultancy practice, Economic Analytics, and I’m also Economic Data Lead at Open Innovations Ltd, a #RadicallyOpen not-for-profit organisation that helps people and organisations do more with data, Chief Economist and Fellow at The Institute of Place Management, and a Fellow of the Royal Society of Arts.\nI research regional economies, local government (and finance), devolution and industrial strategy using data, analytics and visualisations to better understand and support regional economies and their policy makers alongside business and civic society.\nDuring my career, I’ve worked in both the public and private sectors, in local government and in think tanks, in academia and for lobbying organisations.\nYou can find more information about me in my biography.\n\n\n\n2022- Founder & Chief Economist, Economic Analytics\n2022- Chief Economist, Institute of Place Management\n2022-2026 Economic Data Lead, Open Innovations Ltd\n2018-2022 Reader in Economic Analytics, Manchester Metropolitan University\n2018-2022 Head of Economic Data & Analytics, Future Economies Research Centre, Manchester Metropolitan University\n2015-2018 Head of Research & Policy, Greater Manchester Chamber of Commerce\n2014-2018 Head of Business Rates Policy, British Chambers of Commerce\n2013-2015 Head of Research & Business Intelligence, Greater Manchester Chamber of Commerce\n2011-2013 Research Manager, Greater Manchester Chamber of Commerce\n2011-2011 Political Strategy and Policy Consultant, Core Cities\n2009-2011 Assistant Policy Officer, Economic Policy Unit, Manchester City Council\n\n\n\n\n \n  \n   \n  \n    \n     LinkedIn\n  \n  \n    \n     Bluesky\n  \n  \n    \n     X (Twitter)\n  \n  \n    \n     Github"
   },
   {
     "objectID": "explainers/2026-06-19-bonds-prices-yields.html",
@@ -117,5 +159,12 @@
     "title": "VAT removed on domestic electricity",
     "section": "Maybe it’s worth it?",
     "text": "Maybe it’s worth it?\nSo, all in all, I’m not keen on this as an approach, but there is one caveat that I would give this, particularly this early in a new government. As economists, tax wonks, policy professionals, etc., it’s easy for us to be grumpy and point out (as I’ve done above) why some policy decisions don’t make economic, technocratic sense. But this can involve missing the point that ultimately all policy decisions are political decisions, and we forget this at our peril.\nOne of the (many) reasons that the Starmer administration failed was that even where it had done things which polled well with the public, it was seemingly incapable of teliing the public what it had done. Whilst communications failure is a poor excuse for policy failure, communications does matter, and is an important part of politics and taking the public with you. This policy has polled well, and sometimes (whilst people like me can hate bad policy polling well), it’s part of the narrative, and building a little positive atmosphere early on is unlikely to cause Burnham any sleepless nights. After all, the relentless negativity that came in the early weeks and months of the Starmer administration effectively sunk the ship as it left port.\nDoes that mean I think this policy is worth it for a short-term political high? Somewhat, but not entirely. If this is just a holding position whilst a longer-term, better policy solution to this is worked out (which might include re-setting the VAT treatment), then I think that this is a tolerable though sub-optimal outcome for a better one in the future. But critically, it only works for me in the short-term. If there is no longer-term, better plan, then this one is bad. If it creates a window of optimsim for something better, then the wonks should swallow their pride and admit that politics needs to win sometimes."
+  },
+  {
+    "objectID": "posts/2026-07-31-budget-2026-announced.html",
+    "href": "posts/2026-07-31-budget-2026-announced.html",
+    "title": "Budget 2026 announced",
+    "section": "",
+    "text": "Today the government has announced that the first budget of the new Burnham administration will be delivered by John Healey MP, Chancellor of the Exchequer, on Wednesday 28 October, and is customarily immediately after Prime Minister’s Questions at 12.30pm.\nFalling in the autumn half-term, this will likely cause some challenges for politicos, journalists, and the poor civil servants who have to deal with this, but Economic Analytics will be busy as usual analysing the statement, the reams of documents from HM Treasury and the latest forecasts from the Office for Budget Responsibility.\nWe’re now taking bookings from clients for an analysis of the Budget in the days that follow. If you’d like to book Christian Spence to speak to you and/or your clients, please contact us."
   }
 ]

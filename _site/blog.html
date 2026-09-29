@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +43,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-3c3f1368ed8db972a012dae01a8e5220.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-97e28f47ad423cfcb72627c3f906fd98.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-3c3f1368ed8db972a012dae01a8e5220.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4f6299315634cf90865f7ee11b1811a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-4f6299315634cf90865f7ee11b1811a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-4f6299315634cf90865f7ee11b1811a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c066bad4ef082d8a555e7cf77f3ff817.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c066bad4ef082d8a555e7cf77f3ff817.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c066bad4ef082d8a555e7cf77f3ff817.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -106,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -146,8 +149,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./ea-logo-xmas.png" alt="" class="navbar-logo light-content">
-    <img src="./ea-logo-xmas.png" alt="" class="navbar-logo dark-content">
+    <img src="./img/ea-logo.png" alt="" class="navbar-logo light-content">
+    <img src="./img/ea-logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Economic Analytics</span>
@@ -164,9 +167,8 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">services.qmd</span>
-    </span>
+    <a class="nav-link" href="./services.html"> 
+<span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./blog.html" aria-current="page"> 
@@ -177,33 +179,23 @@ window.Quarto = {
 <span class="menu-text">Explainers</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">resources.qmd</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./clients.html"> 
-<span class="menu-text">Clients</span></a>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">economic-data.qmd</span>
-    </span>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://bsky.app/profile/economic-analytics.co.uk"> <i class="bi bi-bluesky" role="img">
+    <a class="nav-link" href="https://bsky.app/profile/economic-analytics.co.uk" target="_blank"> <i class="bi bi-bluesky" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/EconAnalyticsUK"> <i class="bi bi-twitter-x" role="img">
+    <a class="nav-link" href="https://x.com/EconAnalyticsUK" target="_blank"> <i class="bi bi-twitter-x" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/company/economic-analytics"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/company/economic-analytics" target="_blank"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -215,11 +207,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bi-github">    
         <li>
-    <a class="dropdown-item" href="https://github.com/economic-analytics">
+    <a class="dropdown-item" href="https://github.com/economic-analytics" target="_blank">
  <span class="dropdown-text">Economic Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/economic-analytics/economic-analytics.co.uk">
+    <a class="dropdown-item" href="https://github.com/economic-analytics/economic-analytics.co.uk" target="_blank">
  <span class="dropdown-text">Website source code</span></a>
   </li>  
     </ul>
@@ -230,9 +222,6 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="b6f2ba2e17314dc3118cbf73f090c88e" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Note:</strong> Content is missing while this website is being rebuilt. Our new site will be published on 1 September 2026</p>
-</div></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
@@ -240,7 +229,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YnVybmhhbQ==">burnham <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnVzaW5lc3MlMjByYXRlcw==">business rates <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29zdCUyMG9mJTIwbGl2aW5n">cost of living <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXhwbGFpbmVycw==">explainers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGFib3Vy">labour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG0=">pm <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9saWN5">policy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGF4JTIwcmVmb3Jt">tax reform <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmF0">vat <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="YnVkZ2V0JTIwMjAyNg==">budget 2026 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnVybmhhbQ==">burnham <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnVzaW5lc3MlMjByYXRlcw==">business rates <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29zdCUyMG9mJTIwbGl2aW5n">cost of living <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXhwbGFpbmVycw==">explainers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGFib3Vy">labour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG0=">pm <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9saWN5">policy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGF4JTIwcmVmb3Jt">tax reform <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmF0">vat <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -269,7 +258,40 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="YnVzaW5lc3MlMjByYXRlcyUyQ3RheCUyMHJlZm9ybQ==" data-listing-date-sort="1784761200000" data-listing-file-modified-sort="1785762205602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="822">
+<div class="quarto-post image-right" data-index="0" data-categories="YnVkZ2V0JTIwMjAyNg==" data-listing-date-sort="1785452400000" data-listing-file-modified-sort="1790676412976" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="thumbnail"><a href="./posts/2026-07-31-budget-2026-announced.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2026-07-31-budget-2026-announced.html" class="no-external">Budget 2026 announced</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2026-07-31-budget-2026-announced.html" class="no-external">A half-term date for a half-term government</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('YnVkZ2V0JTIwMjAyNg=='); return false;">budget 2026</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2026-07-31-budget-2026-announced.html" class="no-external">
+Today the government has announced that the first budget of the new Burnham administration will be delivered by John Healey MP, Chancellor of the Exchequer, on <strong>Wednesday 28…</strong>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2026-07-31-budget-2026-announced.html" class="no-external">
+<div class="listing-date">
+Jul 31, 2026
+</div>
+<div class="listing-author">
+Christian Spence
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="YnVzaW5lc3MlMjByYXRlcyUyQ3RheCUyMHJlZm9ybQ==" data-listing-date-sort="1784761200000" data-listing-file-modified-sort="1785762205602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="822">
 <div class="thumbnail"><a href="./posts/2026-07-23-business-rates-cuts-for-pubs.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -304,7 +326,7 @@ Christian Spence
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="cG9saWN5JTJDdmF0JTJDY29zdCUyMG9mJTIwbGl2aW5n" data-listing-date-sort="1784588400000" data-listing-file-modified-sort="1785762205602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1190">
+<div class="quarto-post image-right" data-index="2" data-categories="cG9saWN5JTJDdmF0JTJDY29zdCUyMG9mJTIwbGl2aW5n" data-listing-date-sort="1784588400000" data-listing-file-modified-sort="1785762205602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1190">
 <div class="thumbnail"><a href="./posts/2026-07-21-vat-removed-on-domestic-electricity.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -341,7 +363,7 @@ Christian Spence
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="bGFib3VyJTJDcG0lMkNidXJuaGFt" data-listing-date-sort="1782082800000" data-listing-file-modified-sort="1785762205585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="454">
+<div class="quarto-post image-right" data-index="3" data-categories="bGFib3VyJTJDcG0lMkNidXJuaGFt" data-listing-date-sort="1782082800000" data-listing-file-modified-sort="1785762205585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="454">
 <div class="thumbnail"><a href="./posts/2026-06-22-andy-burnham-westminster.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -378,7 +400,7 @@ Christian Spence
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZXhwbGFpbmVycw==" data-listing-date-sort="1781823600000" data-listing-file-modified-sort="1785762205585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="759">
+<div class="quarto-post image-right" data-index="4" data-categories="ZXhwbGFpbmVycw==" data-listing-date-sort="1781823600000" data-listing-file-modified-sort="1785762205585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="759">
 <div class="thumbnail"><a href="./posts/2026-06-19-introducing-explainers.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -487,7 +509,7 @@ Christian Spence
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/economic-analytics\.co\.uk\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -501,6 +523,13 @@ Christian Spence
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -815,6 +844,19 @@ Christian Spence
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© Copyright 2026, <a href="https://economic-analytics.co.uk">Economic Analytics</a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Built by <a href="https://economic-analytics.co.uk">Economic Analytics</a> and powered by <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
 
 
