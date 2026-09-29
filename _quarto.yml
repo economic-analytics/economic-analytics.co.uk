@@ -13,6 +13,8 @@ website:
     background: "#0000FF"
     logo: img/ea-logo.png
     left:
+      - text: "Home"
+        href: index.qmd
       - about.qmd
       - services.qmd
       - blog.qmd
