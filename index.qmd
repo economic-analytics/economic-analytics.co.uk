@@ -14,4 +14,10 @@ The government has announced that Budget 2026 will take place on **Wednesday 28 
 
 ## Economic Analytics
 
-Economic Analytics is a consultancy founded in 2022 by [Christian Spence](https://www.christianspence.co.uk). We work with a variety of clients from not-for-profits, trade bodies, local authorities through to blue-chip companies to provide economic and economic data-led research to support research and analysis, decision making, modelling and forecasting.
+Economic Analytics is a boutique consultancy practice founded in 2022 by [Christian Spence](https://www.christianspence.co.uk), an economist and data scientist with over 15 years' experience of working in public policy. It specialises in [automated, interactive and reproducible](/about.qmd#a-i-r) analysis, forecasting and modelling.
+
+Our work is deployed to the web in bespoke environments so that clients get live access to their commissioned research which updates as soon as the underlying data does. We built and maintain [EDD, our own custom-built database](https://edd.economic-analytics.co.uk) of over 25,000 economic variables, that is automatically kept up-to-date with the latest data releases.
+
+We don't write lengthy reports and provide uneditable PDFs (_#KillAllReports_)^[My time working with Paul Connell and Tom Forth at the wonderful [Open Innovations](https://open-innovation.org) convinced me this is the only way to work. You can read more about this approach [here](about.qmd#how-we-do-things).] as they're out-of-date by the time they're printed. Instead, we give you live and direct access to the data, models and visualisations so that your results are not locked at one point in time, but instead update as new evidence is released. After all, when the facts change, your mind should too.^[An almost certainly apocryphal quote attributed to the British economist John Maynard Keynes (1883-1946).]
+
+We work with a variety of clients from not-for-profits, trade bodies, local authorities through to blue-chip companies to provide economic and economic data-led research to support research and analysis, decision making, modelling and forecasting. We offer generous discounts to not-for-profit organisations.
