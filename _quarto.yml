@@ -2,12 +2,11 @@ project:
   type: website
 
 website:
-  announcement:
-    icon: info-circle
-    dismissable: false
-    content: "**Note:** Content is missing while this website is being rebuilt. Our new site will be published on 1 September 2026"
-    type: primary
-    position: below-navbar
+  site-url: https://economic-analytics.co.uk/
+  page-footer: 
+    center: © Copyright 2026, [Economic Analytics](https://economic-analytics.co.uk)
+    right: Built by [Economic Analytics](https://economic-analytics.co.uk) and powered by [Quarto](https://quarto.org)
+    background: "#00CCFF"
   title: "Economic Analytics"
   navbar:
     pinned: true
