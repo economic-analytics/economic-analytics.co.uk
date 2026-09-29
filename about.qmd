@@ -1,42 +1,74 @@
 ---
 title: "About"
 about:
+  id: about-people
   template: jolla
   image: img/cs-headshot.jpg
   links:
-  - icon: twitter
-    text: twitter
-    href: https://twitter.com
+  - icon: linkedin
+    text: LinkedIn
+    href: https://www.linkedin.com/in/christianspence/
+  - icon: bluesky
+    text: Bluesky
+    href: https://bsky.app/profile/christianspence.co.uk
+  - icon: twitter-x
+    text: X (Twitter)
+    href: https://x.com/ChristianSpence
   - icon: github
     text: Github
-    href: https://github.com
+    href: https://github.com/ChristianSpence
 ---
 
+## Overview
+
+## How we do things
+
+Differently.
+
+### AIR
+
+We call our core working model AIR: automated, interactive and reproducible.
+
+### RAP
+
+Reproducible Analytical Pipelines
+
+### EDD
+
+Economic Data Dashboard
+
+### Transparent pricing
+
+Simple per-day or per-project pricing, no retainers, and a significant discount for not-for-profit organisations.
+
+:::: {#about-people}
 ::: {.panel-tabset}
 
 ## Overview
 
-I’m an economist and data scientist with a passion for, and over 15 years' experience in, public policy .
+The founder of Economic Analytics, Christian Spence, is an economist and data scientist with a passion for, and over 15 years' experience in, public policy. Having worked in local government, think-tanks, business-representative organisations and academia, his experience covers urban economic policy, devolution, local government finance, government lobbying, business support, tax, education, and economics of place, combined with extensive public speaking and media appearances.
 
-In September 2022 I founded my own consultancy practice, [Economic Analytics](https://www.economic-analytics.co.uk), and I’m also Economic Data Lead at [Open Innovations Ltd](https://www.open-innovations.org), a #RadicallyOpen not-for-profit organisation that helps people and organisations do more with data, Chief Economist and Fellow at [The Institute of Place Management](https://www.placemanagement.org/), a Fellow of the [Royal Society of Arts](https://www.thersa.org/) and a Member of the [Regional Studies Association](https://www.regionalstudies.org/).
+In September 2022 I founded my own consultancy practice, [Economic Analytics](https://www.economic-analytics.co.uk), and I’m also Economic Data Lead at [Open Innovations Ltd](https://www.open-innovations.org), a #RadicallyOpen not-for-profit organisation that helps people and organisations do more with data, Chief Economist and Fellow at [The Institute of Place Management](https://www.placemanagement.org/), and a Fellow of the [Royal Society of Arts](https://www.thersa.org/).
 
 I research regional economies, local government (and finance), devolution and industrial strategy using data, analytics and visualisations to better understand and support regional economies and their policy makers alongside business and civic society.
 
 During my career, I’ve worked in both the public and private sectors, in local government and in think tanks, in academia and for lobbying organisations.
 
-You can find more information about me in my [biography](/biography.html).
+You can find more information about me in my [biography](https://christianspence.co.uk/biography.html).
 
 ## CV
 
-2022- Founder & Chief Economist, Economic Analytics
-2022- Economic Data Lead, Open Innovations Ltd
-2022- Chief Economist, Institue of Place Management
-
-2018-2022 Reader in Economic Analytics, Manchester Metropolitan University
-2018-2022 Head of Economic Data & Analytics, Future Economies Research Centre, Manchester Metropolitan University
-
-2011-2018 Head of Research & Policy, Greater Manchester Chamber of Commerce
-2011-2011 Core Cities
-2009-2011 Assistant Policy Officer, Manchester City Council
+- 2022- Founder & Chief Economist, [Economic Analytics](https://economic-analytics.co.uk)
+- 2022- Chief Economist, [Institute of Place Management](https://placemanagement.org)
+- 2022-2026 Economic Data Lead, [Open Innovations Ltd](https://open-innovations.org)
+- 2018-2022 Reader in Economic Analytics, [Manchester Metropolitan University](https://mmu.ac.uk)
+- 2018-2022 Head of Economic Data & Analytics, Future Economies Research Centre, [Manchester Metropolitan University](https://mmu.ac.uk)
+- 2015-2018 Head of Research & Policy, [Greater Manchester Chamber of Commerce](https://gmchamber.co.uk)
+- 2014-2018 Head of Business Rates Policy, [British Chambers of Commerce](https://britishchambers.org.uk)
+- 2013-2015 Head of Research & Business Intelligence, [Greater Manchester Chamber of Commerce](https://gmchamber.co.uk)
+- 2011-2013 Research Manager, [Greater Manchester Chamber of Commerce](https://gmchamber.co.uk)
+- 2011-2011 Political Strategy and Policy Consultant, [Core Cities](https://corecities.com)
+- 2009-2011 Assistant Policy Officer, Economic Policy Unit, [Manchester City Council](https://manchester.gov.uk)
 
 :::
+::::

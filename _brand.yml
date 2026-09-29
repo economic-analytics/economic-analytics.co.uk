@@ -16,5 +16,10 @@ typography:
   fonts:
     - family: Cabin
       source: google
+    - family: Playfair Display
+      source: google
+    - family: Fira Code
+      source: google
   base: Cabin
   headings: Cabin
+  monospace: Fira Code

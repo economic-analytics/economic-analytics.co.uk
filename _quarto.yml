@@ -2,38 +2,43 @@ project:
   type: website
 
 website:
-  announcement:
-    icon: info-circle
-    dismissable: false
-    content: "**Note:** Content is missing while this website is being rebuilt. Our new site will be published on 1 September 2026"
-    type: primary
-    position: below-navbar
+  site-url: https://economic-analytics.co.uk/
+  page-footer: 
+    center: © Copyright 2026, [Economic Analytics](https://economic-analytics.co.uk)
+    right: Built by [Economic Analytics](https://economic-analytics.co.uk) and powered by [Quarto](https://quarto.org)
+    background: "#00CCFF"
   title: "Economic Analytics"
   navbar:
     pinned: true
-    logo: ea-logo-xmas.png
+    background: "#0000FF"
+    logo: img/ea-logo.png
     left:
       - about.qmd
       - services.qmd
       - blog.qmd
       - explainers.qmd
-      - resources.qmd
-      - clients.qmd
-      - economic-data.qmd
+      - contact.qmd
     right:
       - icon: bluesky
         href: https://bsky.app/profile/economic-analytics.co.uk
+        target: _blank
       - icon: twitter-x
         href: https://x.com/EconAnalyticsUK
+        target: _blank
       - icon: linkedin
         href: https://linkedin.com/company/economic-analytics
+        target: _blank
       - icon: github
         menu:
           - text: Economic Analytics
             href: https://github.com/economic-analytics
+            target: _blank
           - text: Website source code
             href: https://github.com/economic-analytics/economic-analytics.co.uk
+            target: _blank
 format:
   html:
+    link-external-icon: true
+    link-external-newwindow: true
     theme: default
     css: styles.css
