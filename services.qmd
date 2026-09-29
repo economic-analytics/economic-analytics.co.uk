@@ -1,0 +1,15 @@
+---
+title: "Services"
+page-layout: full
+title-block-banner: full
+---
+
+Economic Analytics provides a wide variety of services to suit different clients' needs, though the majority of our work falls into the categories below. If you're looking for something that doesn't seem to fit these, do please [contact us](contact.qmd) to discuss your requirements.
+
+## Economic Update
+
+## Analysis
+
+## Tax modelling
+
+## Public speaking
