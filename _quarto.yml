@@ -17,9 +17,7 @@ website:
       - services.qmd
       - blog.qmd
       - explainers.qmd
-      - resources.qmd
-      - clients.qmd
-      - economic-data.qmd
+      - contact.qmd
     right:
       - icon: bluesky
         href: https://bsky.app/profile/economic-analytics.co.uk
