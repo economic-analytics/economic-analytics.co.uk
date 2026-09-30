@@ -3,7 +3,7 @@ title: "Business Rates cuts for pubs"
 subtitle: "Fiddling whilst the rates burn"
 author: "Christian Spence"
 date: "2026-07-23"
-categories: [business rates, tax reform]
+categories: [burnham, business rates, tax reform]
 ---
 
 Another day (four, if you're counting) of the Burnham prime ministership, another cost of living announcement. We've removed VAT from domestic electricity, we've capped bus fares, and now we're lowering business rates for pubs.

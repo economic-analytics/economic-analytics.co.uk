@@ -1,0 +1,8 @@
+---
+title: "Profit per partner"
+subtitle: "An immutable law of a certain type of city firm"
+author: "Christian Spence"
+date: "2026-09-30"
+categories: [profit per partner]
+draft: true
+---
