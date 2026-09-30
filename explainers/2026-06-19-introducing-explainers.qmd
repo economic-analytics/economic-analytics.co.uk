@@ -1,5 +1,6 @@
 ---
 title: "Introducing Explainers"
+subtitle: "Answering some the most common questions I tend to receive"
 author: "Christian Spence"
 date: "2026-06-19"
 categories: [explainers]
