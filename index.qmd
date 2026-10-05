@@ -2,6 +2,14 @@
 title: "Economic Analytics | Home"
 page-layout: full
 title-block-banner: true
+listing:
+  id: blog-overview
+  contents: posts
+  sort: "date desc"
+  type: grid
+  max-items: 3
+  sort-ui: false
+  filter-ui: false
 ---
 
 ::: {.callout-note }
@@ -21,3 +29,8 @@ Our work is deployed to the web in bespoke environments so that clients get live
 We don't write lengthy reports and provide uneditable PDFs (_#KillAllReports_)^[My time working with Paul Connell and Tom Forth at the wonderful [Open Innovations](https://open-innovation.org) convinced me this is the only way to work. You can read more about this approach [here](about.qmd#how-we-do-things).] as they're out-of-date by the time they're printed. Instead, we give you live and direct access to the data, models and visualisations so that your results are not locked at one point in time, but instead update as new evidence is released. After all, when the facts change, your mind should too.^[An almost certainly apocryphal quote attributed to the British economist John Maynard Keynes (1883-1946).]
 
 We work with a variety of clients from not-for-profits, trade bodies, local authorities through to blue-chip companies to provide economic and economic data-led research to support research and analysis, decision making, modelling and forecasting. We offer generous discounts to not-for-profit organisations.
+
+## Recent blog posts
+
+::: {#blog-overview}
+:::
