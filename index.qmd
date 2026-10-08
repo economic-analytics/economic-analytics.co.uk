@@ -30,7 +30,7 @@ We don't write lengthy reports and provide uneditable PDFs (_#KillAllReports_)^[
 
 We work with a variety of clients from not-for-profits, trade bodies, local authorities through to blue-chip companies to provide economic and economic data-led research to support research and analysis, decision making, modelling and forecasting. We offer generous discounts to not-for-profit organisations.
 
-## Recent blog posts
+## Latest blog posts
 
 ::: {#blog-overview}
 :::
