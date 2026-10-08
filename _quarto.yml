@@ -2,11 +2,7 @@ project:
   type: website
 
 website:
-  site-url: https://economic-analytics.co.uk/
-  page-footer: 
-    center: © Copyright 2026, [Economic Analytics](https://economic-analytics.co.uk)
-    right: Built by [Economic Analytics](https://economic-analytics.co.uk) and powered by [Quarto](https://quarto.org)
-    background: "#00CCFF"
+  site-url: https://economic-analytics.co.uk
   title: "Economic Analytics"
   navbar:
     pinned: true
@@ -38,6 +34,10 @@ website:
           - text: Website source code
             href: https://github.com/economic-analytics/economic-analytics.co.uk
             target: _blank
+  page-footer: 
+    center: © Copyright 2026, [Economic Analytics](https://economic-analytics.co.uk)
+    right: Built by [Economic Analytics](https://economic-analytics.co.uk) and powered by [Quarto](https://quarto.org)
+    background: "#00CCFF"
 format:
   html:
     link-external-icon: true
