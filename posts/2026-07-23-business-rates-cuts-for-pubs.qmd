@@ -5,6 +5,9 @@ author: "Christian Spence"
 date: "2026-07-23"
 categories: [burnham, business rates, tax reform]
 ---
+::: {.column-margin}
+![](img/burnham-pub.png)
+:::
 
 Another day (four, if you're counting) of the Burnham prime ministership, another cost of living announcement. We've removed VAT from domestic electricity, we've capped bus fares, and now we're lowering business rates for pubs.
 

@@ -5,6 +5,9 @@ author: "Christian Spence"
 date: "2026-09-28"
 categories: [labour conference, john healey, budget 2026]
 ---
+::: {.column-margin}
+![](img/healey-conf-2026.jpg)
+:::
 
 In some ways, considering the key points of the speech to the Labour conference in Liverpool of the new Chancellor of the Exchequer, John Healey, is an easy ask. Sadly, that's because there aren't any key points in it.
 

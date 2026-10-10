@@ -6,6 +6,10 @@ date: "2026-07-20"
 categories: [burnham, brexit, europe]
 draft: true
 ---
+::: {.column-margin}
+![](img/burnham-arrives-no-10.jpg)
+:::
+
 homelessness
 
 circuit breaker

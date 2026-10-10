@@ -5,6 +5,10 @@ author: "Christian Spence"
 date: "2026-06-22"
 categories: [labour, pm, burnham]
 ---
+::: {.column-margin}
+![](img/andy-burnham-swearing-in-mp.jpg)
+:::
+
 Today saw Andy Burnham, ex-Mayor of Greater Manchester, journeying south (with the ridiculous spectacle of the Sky News helicopter following his train) to be sworn in as MP for Makerfield after a resounding win last week. Today also, for the sixth time in the past decade, a prime minister at the lectern in Downing Street saying he can't carry on and resigning the position.
 
 In some ways, the decadal span of these six resignations tells you much about the state of UK politics. Tomorrow will be the 10th anniversary of the referendum of the United Kingdom voting to leave the European Union. (The fact that at 50 this year, I saw the same number of prime ministers in my first 40 years as I have in the last 10 perhaps says even more.) Clearly, the visuals of Starmer resigning in Downing Street (technically only as Labour party leader: he'll remain PM until his successor takes over) and Andy Burnham arriving sums up the likely next steps. Wes Streeting (former health secretary) has said he won't stand for the leadership and will back Burnham, so a coronation rather than a leadership contest now seems to be the outcome (meaning Burnham may be in number 10 by mid-July).

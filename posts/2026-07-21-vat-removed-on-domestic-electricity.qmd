@@ -5,6 +5,9 @@ author: "Christian Spence"
 date: "2026-07-21"
 categories: [burnham, policy, vat, cost of living]
 ---
+::: {.column-margin}
+![](img/no-10.jpg)
+:::
 
 On only the second day of his premiership, new Prime Minister Andy Burnham is already making policy announcements around the cost of living, one of his core areas of focus. The proposal is simple enough: the current reduced rate of VAT of 5% applied to domestic electricity consumption is to be scrapped (technically, reduced to 0%).
 

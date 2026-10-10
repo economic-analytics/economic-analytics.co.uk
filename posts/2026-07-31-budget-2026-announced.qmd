@@ -5,6 +5,9 @@ author: "Christian Spence"
 date: "2026-07-31"
 categories: [budget 2026]
 ---
+::: {.column-margin}
+![](img/budget-2026.png)
+:::
 
 Today the government [has announced](https://www.gov.uk/government/news/budget-to-move-power-and-money-out-of-westminster-and-into-every-postcode-around-britain) that the first budget of the new Burnham administration will be delivered by John Healey MP, Chancellor of the Exchequer, on **Wednesday 28 October**, and is customarily immediately after Prime Minister's Questions at 12.30pm.
 
